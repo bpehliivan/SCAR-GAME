@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+/release/
+
+# testing
+/coverage
+
+# vite
+dist/
+
+# snapshots from scripts/snap.mjs
+/snaps
+
+# misc
+.DS_Store
+desktop.ini
+*.pem
+
+# debug
+npm-debug.log*
+
+# env files
+.env*
+
+# typescript
+*.tsbuildinfo
+
+# local Claude Code tooling
+/.claude/
